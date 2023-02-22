@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Aniron-7BaP';
+  src: url('./Aniron-7BaP.ttf');
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0; 
+  margin: 0;
+}
+
+img, picture, svg, video {
+  display: block; 
+  max-width: 100%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+header {
+  background-color: #222;
+  display: flex;
+}
+
+.company-title {
+  font-family: 'Aniron-7BaP';
+  font-size: 1.3rem;
+  color: white;
+  padding: 20px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: .5rem;
+  justify-content: center;
+  align-items: center;
+  align-items: start;
+  margin: 0 auto;
+  row-gap: 1rem;
+}
+
+.sword-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 1rem;
+}
+
+.sword-container h2 {
+  text-align: center;
+}
+
+.sword-container img {
+  margin: 1rem auto;
+}
+
+.sword-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+@media (min-width: 80em){
+  .main-container {
+      grid-template-columns: repeat(4, 1fr);
+  }
+}
