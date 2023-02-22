@@ -68,6 +68,18 @@ header {
   margin: 10px;
 }
 
+@media (min-width: 40em){
+  .main-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 60em){
+  .main-container {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media (min-width: 80em){
   .main-container {
       grid-template-columns: repeat(4, 1fr);

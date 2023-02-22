@@ -46,10 +46,13 @@ export async function UpdateAction({ request, params }) {
     // get the form data
     const formData = await request.formData();
   
-    // construct new sword
+    // const updateTodo = await generateTodoObject
+    // construct new todo
     const updateSword = {
-      subject: formData.get("subject"),
-      details: formData.get("details"),
+        url: formData.get('url'),
+        name: formData.get("name"),
+        origin: formData.get('origin'),
+        details: formData.get('details')
     };
   
     // request to update route in backend
