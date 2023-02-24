@@ -5,6 +5,10 @@ export default function Show(props){
 
   return(
       <div className="show-container">
+
+        <Link to="/">
+          <button>Go Back</button>
+        </Link>
           
       {/* 
         ############################################
@@ -39,9 +43,7 @@ export default function Show(props){
         </section>
 
 
-        <Link to="/">
-          <button>Go Back</button>
-        </Link>
+        
       </div>
   )
 };
