@@ -7,8 +7,6 @@ export default function Index(props){
 
     return(
         <>
-            
-
             <section className="main-container">
                 <aside className="CreateSwordContainer">
                     <h2>Add a Weapon</h2>
