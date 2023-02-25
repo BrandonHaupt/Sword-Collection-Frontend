@@ -7,9 +7,7 @@ export default function Index(props){
 
     return(
         <>
-            <header>
-                <p className="company-title">He Who Smelt it Weaponry</p>
-            </header>
+            
 
             <section className="main-container">
                 <aside className="CreateSwordContainer">

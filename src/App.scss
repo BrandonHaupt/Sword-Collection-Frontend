@@ -1,5 +1,5 @@
 // ############################################
-// ############### Main Stuff #################
+// ############ Placeholder stuff #############
 // ############################################
 
 @font-face {
@@ -193,6 +193,7 @@ header {
       border: none;
       border-radius: 50px;
       padding: .5rem 1rem;
+      cursor: pointer;
 
       &:hover{
         border: 2px solid #222;
@@ -270,6 +271,30 @@ header {
 
     .CreateSwordContainer {
       grid-area: create;  
+    }
+  }
+
+  .show-container{
+    .weapon-form-container{
+      .sp-weapon-update {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        margin: 0 auto;
+
+        input{
+          &[name="origin"], &[name="details"]{
+            border-radius: 10px;
+            height: 50px;
+          }
+        }
+      }
+    }
+  }
+
+  .weapon-information-container{
+    img{
+      width: 50%;
     }
   }
 }
