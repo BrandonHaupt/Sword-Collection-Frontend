@@ -17,9 +17,9 @@ export default function Index(props){
 
                     <Form className="formCreate" action="/create" method="post">
                         <input type='text' name="url" placeholder="Image Url" />
-                        <input type='text' name="name" placeholder="Name of Sword" />
-                        <input type='text' name="origin" placeholder="Origin of Sword" />
-                        <input type='text' name="details" placeholder="Details about Sword" />
+                        <input type='text' name="name" placeholder="Name of Weapon" />
+                        <input type='text' name="origin" placeholder="Origin of Weapon" />
+                        <input type='text' name="details" placeholder="Details about Weapon" />
 
                         <button>Add a New Weapon</button>
                     </Form>
